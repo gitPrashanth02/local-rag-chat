@@ -1,14 +1,3 @@
----
-title: RAG Document Chat
-emoji: 📄
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-app_port: 7860
-pinned: false
-short_description: Ask questions about a PDF with a fully local RAG pipeline
----
-
 # RAG Pipeline
 
 A local Retrieval-Augmented Generation (RAG) pipeline that answers questions about a PDF document.
@@ -149,19 +138,19 @@ Any text sent with the file is asked as a question once indexing finishes (this 
 The page shows each answer with its source pages, offers example questions, and lets you choose how
 many chunks the model reads. If the API runs at another address, set `RAG_API_URL` before starting it.
 
-To use a different document, put the PDF in `data/` and update the file name in
-`src/document_parser.py`.
+To use a different document, attach it in the chat page or send it to `POST /documents`.
+The last indexed document is remembered in `data/current_document.txt` and loaded on the next start.
 
-## Deploying to Hugging Face Spaces
+## Docker
 
-The `Dockerfile` and `start.sh` run the API and the chat page together in one container
-(the chat page on port 7860). The header at the top of this README tells Spaces to use Docker.
+The `Dockerfile` and `start.sh` run the API and the chat page together in one container,
+with the chat page on port 7860. The image downloads the models and indexes `data/chatgpt.pdf`
+at build time, so the container starts quickly.
 
-1. Create a Space at https://huggingface.co/new-space with **Docker → Blank** and **CPU Basic** hardware.
-2. Push this project to the Space's git repository.
-3. The first build takes a while: it installs the packages, downloads the models and indexes
-   `data/chatgpt.pdf` inside the image, so the Space starts quickly afterwards.
+```bash
+docker build -t local-rag-chat .
+docker run -p 7860:7860 local-rag-chat
+```
 
-Uploads are turned off in the image (`ALLOW_UPLOADS=false` in the `Dockerfile`), so visitors can't
-replace the document for everyone. Free Spaces have no persistent disk: uploaded documents would be lost
-on every restart anyway.
+Then open http://localhost:7860. Uploads are turned off in the image (`ALLOW_UPLOADS=false`
+in the `Dockerfile`), so visitors of a public server can't replace the document for everyone.

@@ -6,11 +6,9 @@ set -e
 #    visitors never reach it directly, the chat page calls it.
 PORT=8000 python src/api.py &
 
-# 2. Streamlit chat page on port 7860, the port Hugging Face Spaces shows to visitors.
+# 2. Streamlit chat page on port 7860, the port visitors open in their browser.
 #    The page says "API not reachable" for about a minute while the backend loads its models.
-#    XSRF protection is off because it blocks file uploads inside the Spaces page frame.
 exec streamlit run src/streamlit_app.py \
     --server.port 7860 \
     --server.address 0.0.0.0 \
-    --server.headless true \
-    --server.enableXsrfProtection false
+    --server.headless true

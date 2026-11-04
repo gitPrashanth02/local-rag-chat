@@ -1,6 +1,6 @@
-# Docker image for Hugging Face Spaces (Docker SDK).
+# Docker image that runs the API and the chat page together (chat page on port 7860).
 # The models and the index for data/chatgpt.pdf are prepared at BUILD time,
-# so the Space starts quickly after it wakes up (free Spaces have no persistent disk).
+# so the container starts quickly instead of downloading ~4 GB on every start.
 FROM python:3.12-slim
 
 # System libraries needed by OpenCV / MinerU
@@ -8,7 +8,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends libgl1 libglib2.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
-# Hugging Face Spaces run the container as user 1000, so build everything as that user
+# Run as a normal user (id 1000), not root: safer if the server is ever compromised
 RUN useradd -m -u 1000 user
 USER user
 ENV HOME=/home/user \
