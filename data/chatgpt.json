@@ -1,0 +1,983 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.12"
+    },
+    "document": {
+      "title": "Role of Chat GPT in Public Health",
+      "created_at": "2025-11-14T08:20:28+05:30",
+      "modified_at": "2025-11-14T08:20:28+05:30",
+      "producer_application": "Microsoft: Print To PDF",
+      "page_count": 2,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "flash",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page_idx": 1,
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.093,
+            0.04,
+            0.339,
+            0.069
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Annals of Biomedical Engineering https://doi.org/10.1007/s10439-023-03172-7"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.711,
+            0.038,
+            0.904,
+            0.069
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "BMESIIECAN ENGINEERING SOCIETY"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.102,
+            0.081,
+            0.282,
+            0.096
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LETTER TO THE EDITOR"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.857,
+            0.083,
+            0.905,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.857,
+                0.083,
+                0.905,
+                0.12
+              ],
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 4,
+          "bbox": [
+            0.094,
+            0.132,
+            0.442,
+            0.154
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Role of Chat GPT in Public Health"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.092,
+            0.175,
+            0.219,
+            0.191
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Som S. Biswas1D"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.092,
+            0.213,
+            0.404,
+            0.226
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Received: 20 February 2023 / Accepted: 21 February 2023"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.092,
+            0.226,
+            0.524,
+            0.24
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "© The Author(s) under exclusive licence to Biomedical Engineering Society 2023"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.093,
+            0.261,
+            0.163,
+            0.276
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Abstract"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.091,
+            0.277,
+            0.909,
+            0.374
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ChatGPT, a language model developed by OpenAI, has the potential to play a role in public health. With its ability to generate human-like text based on large amounts of data, ChatGPT has the potential to support individuals and communities in making informed decisions about their health (Panch et al. Lancet Digit Health 1:e13-e14, 2019; Baclic et al. Canada Commun Dis Rep 46.6:161, 2020). However, as with any technology, there are limitations and challenges to consider when using ChatGPT in public health. In this overview, we will examine the potential uses of ChatGPT in public health, as well as the advantages and disadvantages of its use."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.092,
+            0.388,
+            0.358,
+            0.404
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Keywords chatGPT· Public health· AI"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.092,
+            0.435,
+            0.441,
+            0.451
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ChatGPT can be used in promoting public health.1,3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.092,
+            0.452,
+            0.489,
+            0.484
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here are some examples of how ChatGPT can be used in community health:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.092,
+            0.499,
+            0.489,
+            0.545
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(1) Providing information on public health issues, such as infectious diseases, chronic diseases, and environmental health hazards."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.092,
+            0.547,
+            0.488,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(2) Answering questions about health promotion and disease prevention strategies."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.092,
+            0.578,
+            0.489,
+            0.61
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(3) Explaining the role of community health workers and health educators."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.092,
+            0.61,
+            0.489,
+            0.641
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(4) Discussing the impact of social and environmental factors on community health."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.092,
+            0.642,
+            0.489,
+            0.674
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(5) Providing information about community health programs and services."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 18,
+          "bbox": [
+            0.092,
+            0.703,
+            0.441,
+            0.736
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Providing Information on Public Health Issues"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.092,
+            0.753,
+            0.489,
+            0.801
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ChatGPT can provide information on public health issues, such as infectious diseases, chronic diseases, and environmental health hazards, along with examples."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.093,
+            0.818,
+            0.465,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Associate Editor Stefan M. Duma oversaw the review of this article."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 21,
+          "bbox": [
+            0.51,
+            0.434,
+            0.882,
+            0.469
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Health Promotion and Disease Prevention Strategies"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.509,
+            0.483,
+            0.909,
+            0.532
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ChatGPT can answer questions about health promotion and disease prevention strategies and provide examples. Here are some examples:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.51,
+            0.546,
+            0.909,
+            0.625
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(1) Healthy lifestyle choices ChatGPT can provide information about strategies for promoting healthy lifestyle choices, such as regular physical activity, a healthy diet, and avoiding harmful substances, such as tobacco and excessive alcohol consumption."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.511,
+            0.626,
+            0.909,
+            0.704
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(2) Vaccination ChatGPT can provide information about the importance of vaccination in preventing the spread of infectious diseases, and answer questions about the types of vaccines available and their recommended schedules."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.511,
+            0.705,
+            0.908,
+            0.783
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(3) Screening and early detection ChatGPT can provide information about the importance of regular screening tests, such as mammograms and colon cancer screenings, in detecting diseases at an early stage, when they are more treatable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.511,
+            0.784,
+            0.908,
+            0.863
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(4) Risk factor reduction ChatGPT can provide information about strategies for reducing risk factors for chronic diseases, such as managing stress, controlling blood pressure and cholesterol levels, and avoiding tobacco and excessive alcohol consumption."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 27,
+          "bbox": [
+            0.511,
+            0.863,
+            0.908,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(5) Environmental health ChatGPT can provide information about strategies for protecting environmental"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 28,
+          "bbox": [
+            0.092,
+            0.845,
+            0.275,
+            0.872
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Som S. Biswas ssbinmemphis@gmail.com"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 29,
+          "bbox": [
+            0.092,
+            0.881,
+            0.419,
+            0.91
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 Le Bonheur Children's Hospital, The University of Tennessee Health Science Center, Memphis, USA"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 30,
+          "bbox": [
+            0.092,
+            0.932,
+            0.285,
+            0.947
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Published online: 15 March 2023"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 31,
+          "bbox": [
+            0.833,
+            0.93,
+            0.907,
+            0.947
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Springer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.842,
+            0.04,
+            0.907,
+            0.053
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "S. S. Biswas"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.124,
+            0.07,
+            0.489,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "health, such as reducing exposure to hazardous chemicals and pollutants, and promoting the use of environmentally friendly products and practices."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.091,
+            0.148,
+            0.46,
+            0.181
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Explaining the Role of Community Health Workers and Health Educators"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.091,
+            0.197,
+            0.491,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ChatGPT can be used to explain the role of community health workers (CHWs) and health educators in promoting and protecting the health of populations, especially in urban and rural communities. ChatGPT can be used to provide information about the qualifications, responsibilities, and training required for these positions, as well as the impact they have on community health outcomes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.091,
+            0.338,
+            0.467,
+            0.387
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Discussing the Impact of Social and Environmental Factors on Community Health"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.091,
+            0.403,
+            0.491,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Social and environmental factors, such as poverty, lack of access to health care, poor housing conditions, and exposure to hazardous chemicals and pollutants, can have a significant impact on the health of individuals and communities. ChatGPT can provide information on how these factors contribute to health disparities and the challenges faced by communities in addressing them."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.092,
+            0.543,
+            0.459,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Providing Information About Community Health Programs and Services"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.091,
+            0.593,
+            0.491,
+            0.705
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ChatGPT can provide information about the types of community health programs and services available, the populations they serve, and the specific health outcomes they aim to achieve. Additionally, ChatGPT can provide information about the eligibility criteria for accessing these programs and services, as well as the costs involved and the insurance coverage available."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.092,
+            0.733,
+            0.436,
+            0.751
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Cons of Using chatGPT in Public Health"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.091,
+            0.767,
+            0.489,
+            0.798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There are some disadvantages of using ChatGPT in public health:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.511,
+            0.07,
+            0.669,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(1) Limited accuracy."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.511,
+            0.087,
+            0.735,
+            0.102
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(2) Bias and limitations of data."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.511,
+            0.103,
+            0.658,
+            0.117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(3) Lack of context."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.511,
+            0.119,
+            0.69,
+            0.134
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(4) Limited engagement."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.511,
+            0.134,
+            0.859,
+            0.15
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(5) No direct interaction with health professionals."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.51,
+            0.18,
+            0.614,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Conclusion"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.508,
+            0.213,
+            0.909,
+            0.325
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In conclusion, ChatGPT is a valuable tool for providing information and answering questions in various fields, including public health. However, it is important to acknowledge its limitations and supplement its use with other resources to ensure accurate and effective public health outcomes.2,4 The use of ChatGPT in public health should be carefully considered and implemented with caution."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.508,
+            0.335,
+            0.909,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Acknowledgments The author acknowledges that some content in this article was partially generated by ChatGPT (powered by OpenAI's language model, GPT-3.5; http://openai.com) to discover the roles that chatGPT can play in public health. The editing was performed completely by the human author."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 18,
+          "bbox": [
+            0.512,
+            0.43,
+            0.614,
+            0.447
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "References"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.518,
+            0.462,
+            0.906,
+            0.512
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Baclic, Oliver, et al. \"Artificial intelligence in public health: Challenges and opportunities for public health made possible by advances in natural language processing.\" Canada Communicable Disease Report 46.6 (2020): 161."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 20,
+          "bbox": [
+            0.518,
+            0.513,
+            0.906,
+            0.55
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Benke, Kurt, and Geza Benke. \"Artificial intelligence and big data in public health\". International journal of environmental research and public health. 15.12 (2018): 2796."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 21,
+          "bbox": [
+            0.518,
+            0.551,
+            0.906,
+            0.588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Panch, Trishan, et al. \"Artificial intelligence: opportunities and risks for public health.\" The Lancet Digital Health 1.1 (2019): e13-e14."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 22,
+          "bbox": [
+            0.518,
+            0.589,
+            0.906,
+            0.626
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Thiébaut, Rodolphe, and Frantz Thiessard. \"Artificial intelligence in public health and epidemiology\". Yearbook of medical informatics. 27.01 (2018): 207-210."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.51,
+            0.638,
+            0.908,
+            0.666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 24,
+          "bbox": [
+            0.094,
+            0.93,
+            0.168,
+            0.947
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Springer"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,17 @@
+# Keep the image small and free of local or personal files.
+venv/
+.venv/
+**/__pycache__/
+.git/
+.vscode/
+.idea/
+.claude/
+
+# Generated locally; the Dockerfile rebuilds them
+chroma_db/
+document_chunks.jsonl
+
+# Only the default document goes into the image, never other uploaded PDFs
+data/*
+!data/chatgpt.pdf
+!data/chatgpt.json

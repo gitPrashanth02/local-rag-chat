@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated pipeline outputs (recreate by running the pipeline)
+chroma_db/
+document_chunks.jsonl
+data/*.md
+data/*.json
+data/current_document.txt
+# Uploaded PDFs stay private: only the default document is committed
+data/*.pdf
+!data/chatgpt.pdf
+# Its parsed version is committed so the Docker build can skip slow PDF parsing
+!data/chatgpt.json
+
+# Secrets
+.env
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
